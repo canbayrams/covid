@@ -42,12 +42,7 @@
                     <a class="nav-link" href="{{ url_for('Homepage') }}">Home <span
                             class=" sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('About') }}">About Application</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('Contact') }}">Contact Us</a>
-                </li>
+               
             </ul>
         </div>
     </nav>
@@ -58,7 +53,7 @@
 
         </div>
         <div class="col float-left">
-            <h1 class="text-left mt-3 mx-0 font-weight-bolder">Impulse</h1>
+            <h1 class="text-left mt-3 mx-0 font-weight-bolder">COVID-19 Tahmin</h1>
         </div>
     </div>
     {% if feedback == "True" %}
@@ -72,7 +67,7 @@
     <br>
 
     <div class="card bg-gradient-info">
-        <h4 class="text-center p-3 font-italic" style="color:#0099ff;">To insure good health eat lightly ,breath deeply , live moderately,cultivate cheerfulness , and maintain an interest in life.</h4>
+        <h4 class="text-center p-3 font-italic" style="color:#0099ff;">Sağlıklı olmayı garantilemek için hafif yemek yiyin, derin nefes alın, ölçülü yaşayın, neşeli olun ve hayata olan ilginizi sürdürün.</h4>
     </div>
 
     </div>
@@ -88,13 +83,12 @@
                     <tr>
                         <th rowspan=3 class="float-right"><img src="/static/VirusImage.png" alt="3"></th>
                         <th colspan="3" class="text-center align-middle">
-                            <h2 class="font-weight-bold">Coronavirus Section </h2>
+                            <h2 class="font-weight-bold">Coronavirus  </h2>
                             <br>
-                            <h5 class="text-center">Track Coronavirus Symptoms </h5>
+                            <h5 class="text-center">Track Coronavirus Belirtileri </h5>
                             <br>
                             <a href="{{ url_for('Coronavirus') }}"><button type="submit" class="btn btn-primary btn-lg  "
-                                    type="submit">COVID-19
-                                    Detector</button></a>
+                                    type="submit">BAŞLA</button></a>
                         </th>
                     </tr>
 
