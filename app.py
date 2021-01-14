@@ -264,7 +264,7 @@ def Coronavirus():
         else:
             return render_template("NonInfected.htm")
 
-    return render_template("Coronavirus.htm", title="Coronavirus Prediction", navTitle="COVID-19 Detector", headText="Coronavirus Probability Detector", ImagePath="/static/VirusImage.png")
+    return render_template("Coronavirus.htm", title="Coronavirus Prediction", navTitle="COVID-19 Detector", headText="KORONAVİRÜS TAHMİN TESTİ", ImagePath="/static/VirusImage.png")
 
 
 if __name__ == '__main__':
